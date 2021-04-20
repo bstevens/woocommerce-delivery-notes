@@ -2,10 +2,10 @@
 /**
  * Print invoices & delivery notes for WooCommerce orders.
  *
- * Plugin Name: Print Invoice & Delivery Notes for WooCommerce
+ * Plugin Name: Print Invoice & Delivery Notes (& Gift Receipts) for WooCommerce
  * Plugin URI: https://www.tychesoftwares.com/
- * Description: Print Invoices & Delivery Notes for WooCommerce Orders.
- * Version: 4.6.2
+ * Description: Print Invoices & Delivery Notes (& Gift Receipts) for WooCommerce Orders.
+ * Version: 100.4.6.2
  * Author: Tyche Softwares
  * Author URI: https://www.tychesoftwares.com/
  * License: GPLv3 or later

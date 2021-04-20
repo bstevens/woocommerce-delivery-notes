@@ -138,6 +138,21 @@ if ( ! class_exists( 'WCDN_Print' ) ) {
 							),
 						)
 					),
+          apply_filters(
+						'wcdn_template_registration_gift_receipt',
+						array(
+							'type'   => 'gift-receipt',
+							'labels' => array(
+								'name'           => __( 'Gift Receipt', 'woocommerce-delivery-notes' ),
+								'name_plural'    => __( 'Gift Receipts', 'woocommerce-delivery-notes' ),
+								'print'          => __( 'Print Gift Receipt', 'woocommerce-delivery-notes' ),
+								'print_plural'   => __( 'Print Gift Receipts', 'woocommerce-delivery-notes' ),
+								'message'        => __( 'Gift Receipt created.', 'woocommerce-delivery-notes' ),
+								'message_plural' => __( 'Gift Receipts created.', 'woocommerce-delivery-notes' ),
+								'setting'        => __( 'Show "Print Gift Receipt" button', 'woocommerce-delivery-notes' ),
+							),
+						)
+					),
 				)
 			);
 
